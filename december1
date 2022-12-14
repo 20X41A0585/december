@@ -1,0 +1,33 @@
+pipeline
+{
+ agent any
+ stages
+ {
+  stage('validation')
+  {
+   steps
+   {
+    echo'validating'
+   }
+  }
+  stage('compilation')
+  {
+   steps
+   {
+    echo'compilation'
+   }
+  }
+  stage('')
+  {
+   steps
+   {
+    echo'validating'
+   }
+  }
+  stage('validation')
+  {
+   steps
+   {
+    echo'validating'
+   }
+  }
